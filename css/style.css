@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+body{
+    color: white;
+    background: rgb(204,165,54);
+background: linear-gradient(180deg, rgba(204,165,54,1) 0%, rgba(5,143,100,1) 60%);
+}
+
+.foto{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 19px;
+}
+
+.perfil{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.social img{
+    width: 50px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li {
+    margin: 10px 20px;
+}
+
+.links li a {
+    background-color: white;
+    padding: 10px;
+    display: block;
+    padding: 15px 20px;
+    border-radius: 40px 10px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
